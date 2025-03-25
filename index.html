@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Off The Wall Media Player</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <script type="module" src="/src/otw-player.ts"></script>
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+      otw-player {
+        width: 100%;
+        max-width: 800px;
+        height: 450px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Off The Wall Media Player</h1>
+    <otw-player playbackId="Jes02nRqnznxmOSIXM76H66xYC44EblPS00lymeHrovUU"></otw-player>
+  </body>
+</html>
